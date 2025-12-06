@@ -390,7 +390,7 @@ if (selection == 'CNN Based disease Prediction'):
   @st.cache(allow_output_mutation=True)
 
   def loading_model():
-    fp = "models/keras_model.h5"
+    fp = "models/keras_model_converted.keras"
     model_loader = load_model(fp)
     return model_loader
 
