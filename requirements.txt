@@ -1,5 +1,5 @@
 streamlit==1.38.0
-tensorflow==2.20.0
+tensorflow==2.10.0
 numpy==1.26.4
 opencv-python-headless
 pillow
@@ -7,3 +7,5 @@ scikit-learn
 matplotlib
 seaborn
 streamlit-option-menu
+keras==2.10.0
+h5py==3.8.0
